@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Score = void 0;
+// Strokes
+class Score {
+}
+exports.Score = Score;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2NvcmUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvdHlwZXMvc2NvcmUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsVUFBVTtBQUNWLE1BQWEsS0FBSztDQUlqQjtBQUpELHNCQUlDIiwic291cmNlc0NvbnRlbnQiOlsiLy8gU3Ryb2tlc1xyXG5leHBvcnQgY2xhc3MgU2NvcmUge1xyXG4gICAgaG9sZTogbnVtYmVyO1xyXG4gICAgc2NvcmU6IG51bWJlcjtcclxuICAgIHBvaW50czpudW1iZXI7XHJcbn0iXX0=

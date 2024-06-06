@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TournamentResultRequestSchema = void 0;
+const golf_division_enum_1 = require("../../../../types/golf-division.enum");
+const validator_1 = require("../../../../core/validation/validator");
+const { check } = require("express-validator");
+exports.TournamentResultRequestSchema = [
+    (0, validator_1.checkId)('tournamentId'),
+    check('division').exists({ checkFalsy: true }).isIn(Object.values(golf_division_enum_1.GolfDivision))
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidG91cm5hbWVudC1yZXN1bHQucmVxdWVzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL3NyYy9hcGkvdjEvZHRvcy9yZXF1ZXN0L3RvdXJuYW1lbnQtcmVzdWx0LnJlcXVlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsNkVBQW9FO0FBQ3BFLHFFQUFnRTtBQUVoRSxNQUFNLEVBQUUsS0FBSyxFQUFFLEdBQUcsT0FBTyxDQUFDLG1CQUFtQixDQUFDLENBQUM7QUFFbEMsUUFBQSw2QkFBNkIsR0FBRztJQUN6QyxJQUFBLG1CQUFPLEVBQUMsY0FBYyxDQUFDO0lBQ3ZCLEtBQUssQ0FBQyxVQUFVLENBQUMsQ0FBQyxNQUFNLENBQUMsRUFBRSxVQUFVLEVBQUUsSUFBSSxFQUFFLENBQUMsQ0FBQyxJQUFJLENBQUMsTUFBTSxDQUFDLE1BQU0sQ0FBQyxpQ0FBWSxDQUFDLENBQUM7Q0FDbkYsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEdvbGZEaXZpc2lvbiB9IGZyb20gXCIuLi8uLi8uLi8uLi90eXBlcy9nb2xmLWRpdmlzaW9uLmVudW1cIjtcclxuaW1wb3J0IHsgY2hlY2tJZCB9IGZyb20gXCIuLi8uLi8uLi8uLi9jb3JlL3ZhbGlkYXRpb24vdmFsaWRhdG9yXCI7XHJcblxyXG5jb25zdCB7IGNoZWNrIH0gPSByZXF1aXJlKFwiZXhwcmVzcy12YWxpZGF0b3JcIik7XHJcblxyXG5leHBvcnQgY29uc3QgVG91cm5hbWVudFJlc3VsdFJlcXVlc3RTY2hlbWEgPSBbXHJcbiAgICBjaGVja0lkKCd0b3VybmFtZW50SWQnKSxcclxuICAgIGNoZWNrKCdkaXZpc2lvbicpLmV4aXN0cyh7IGNoZWNrRmFsc3k6IHRydWUgfSkuaXNJbihPYmplY3QudmFsdWVzKEdvbGZEaXZpc2lvbikpXHJcbl07XHJcbiJdfQ==

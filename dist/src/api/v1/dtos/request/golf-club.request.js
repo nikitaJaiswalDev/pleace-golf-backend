@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GolfClubRequestSchema = void 0;
+const validator_1 = require("../../../../core/validation/validator");
+const { check } = require("express-validator");
+exports.GolfClubRequestSchema = [
+    (0, validator_1.checkCountry)("countryCode")
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ29sZi1jbHViLnJlcXVlc3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi8uLi9zcmMvYXBpL3YxL2R0b3MvcmVxdWVzdC9nb2xmLWNsdWIucmVxdWVzdC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxxRUFBcUU7QUFDckUsTUFBTSxFQUFFLEtBQUssRUFBRSxHQUFHLE9BQU8sQ0FBQyxtQkFBbUIsQ0FBQyxDQUFDO0FBRWxDLFFBQUEscUJBQXFCLEdBQUc7SUFDakMsSUFBQSx3QkFBWSxFQUFDLGFBQWEsQ0FBQztDQUM5QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY2hlY2tDb3VudHJ5IH0gZnJvbSBcIi4uLy4uLy4uLy4uL2NvcmUvdmFsaWRhdGlvbi92YWxpZGF0b3JcIjtcclxuY29uc3QgeyBjaGVjayB9ID0gcmVxdWlyZShcImV4cHJlc3MtdmFsaWRhdG9yXCIpO1xyXG5cclxuZXhwb3J0IGNvbnN0IEdvbGZDbHViUmVxdWVzdFNjaGVtYSA9IFtcclxuICAgIGNoZWNrQ291bnRyeShcImNvdW50cnlDb2RlXCIpXHJcbl07XHJcbiJdfQ==

@@ -1,0 +1,37 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ValidationErrorMessage = void 0;
+var ValidationErrorMessage;
+(function (ValidationErrorMessage) {
+    ValidationErrorMessage["Gender"] = "Invalid gender selected. Valid gender options are 'male' and 'female'.";
+    ValidationErrorMessage["DOB"] = "Invalid date of birth.";
+    ValidationErrorMessage["DOBUnder18"] = "You must be atleast 18 years old.";
+    ValidationErrorMessage["Password"] = "Password should be between 3 and 100 characters.";
+    ValidationErrorMessage["PhoneNumber"] = "Invalid phone number.";
+    ValidationErrorMessage["CountryCode"] = "Invalid country code.";
+    ValidationErrorMessage["Name"] = "Your name should contain only characters.";
+    ValidationErrorMessage["Email"] = "Invalid email.";
+    ValidationErrorMessage["VerificationCode"] = "Invalid verification code.";
+    ValidationErrorMessage["SecurityCode"] = "Invalid security code.";
+    ValidationErrorMessage["RestorationCode"] = "Restoration code must be between 16 and 40 characters.";
+    ValidationErrorMessage["RecipientID"] = "Invalid recipient uuid.";
+    ValidationErrorMessage["TokenAmountTransfer"] = "Amount of tokens sent should be atleast 10.";
+    ValidationErrorMessage["Amount"] = "Invalid amount.";
+    ValidationErrorMessage["CardDateInvalid"] = "Invalid date for card.";
+    ValidationErrorMessage["CardId"] = "CardId should be a number.";
+    ValidationErrorMessage["CardExpired"] = "Your card has expired.";
+    ValidationErrorMessage["CardNumber"] = "Invalid card number.";
+    ValidationErrorMessage["CardCVV"] = "Invalid card security code.";
+    ValidationErrorMessage["CardHolderName"] = "Invalid card holder name.";
+    ValidationErrorMessage["CardName"] = "Invalid name for card.";
+    ValidationErrorMessage["TokenAmount"] = "Amount of tokens should be atleast 0.1.";
+    ValidationErrorMessage["Nationality"] = "Invalid nationality.";
+    ValidationErrorMessage["Title"] = "Invalid title.";
+    ValidationErrorMessage["Town"] = "Invalid town. It should contain alphabetical letters.";
+    ValidationErrorMessage["State"] = "Invalid state.";
+    ValidationErrorMessage["Street"] = "Invalid street.";
+    ValidationErrorMessage["Postcode"] = "Invalid postcode.";
+    ValidationErrorMessage["File"] = "Maximum file size is 10 MB.";
+    ValidationErrorMessage["DocumentSide"] = "Invalid document side name.";
+})(ValidationErrorMessage || (exports.ValidationErrorMessage = ValidationErrorMessage = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmFsaWRhdGlvbi1lcnJvci1tZXNzYWdlLmVudW0uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvdHlwZXMvdmFsaWRhdGlvbi1lcnJvci1tZXNzYWdlLmVudW0udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsSUFBWSxzQkErQlg7QUEvQkQsV0FBWSxzQkFBc0I7SUFDOUIsMkdBQWlGLENBQUE7SUFDakYsd0RBQThCLENBQUE7SUFDOUIsMEVBQWdELENBQUE7SUFDaEQsdUZBQTZELENBQUE7SUFDN0QsK0RBQXFDLENBQUE7SUFDckMsK0RBQXFDLENBQUE7SUFDckMsNEVBQWtELENBQUE7SUFDbEQsa0RBQXdCLENBQUE7SUFDeEIseUVBQStDLENBQUE7SUFDL0MsaUVBQXVDLENBQUE7SUFDdkMsb0dBQTBFLENBQUE7SUFDMUUsaUVBQXVDLENBQUE7SUFDdkMsNkZBQW1FLENBQUE7SUFDbkUsb0RBQTBCLENBQUE7SUFDMUIsb0VBQTBDLENBQUE7SUFDMUMsK0RBQXFDLENBQUE7SUFDckMsZ0VBQXNDLENBQUE7SUFDdEMsNkRBQW1DLENBQUE7SUFDbkMsaUVBQXVDLENBQUE7SUFDdkMsc0VBQTRDLENBQUE7SUFDNUMsNkRBQW1DLENBQUE7SUFDbkMsaUZBQXVELENBQUE7SUFDdkQsOERBQW9DLENBQUE7SUFDcEMsa0RBQXdCLENBQUE7SUFDeEIsd0ZBQThELENBQUE7SUFDOUQsa0RBQXdCLENBQUE7SUFDeEIsb0RBQTBCLENBQUE7SUFDMUIsd0RBQThCLENBQUE7SUFDOUIsOERBQW9DLENBQUE7SUFDcEMsc0VBQTRDLENBQUE7QUFDaEQsQ0FBQyxFQS9CVyxzQkFBc0Isc0NBQXRCLHNCQUFzQixRQStCakMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZW51bSBWYWxpZGF0aW9uRXJyb3JNZXNzYWdlIHtcclxuICAgIEdlbmRlciA9IFwiSW52YWxpZCBnZW5kZXIgc2VsZWN0ZWQuIFZhbGlkIGdlbmRlciBvcHRpb25zIGFyZSAnbWFsZScgYW5kICdmZW1hbGUnLlwiLFxyXG4gICAgRE9CID0gXCJJbnZhbGlkIGRhdGUgb2YgYmlydGguXCIsXHJcbiAgICBET0JVbmRlcjE4ID0gXCJZb3UgbXVzdCBiZSBhdGxlYXN0IDE4IHllYXJzIG9sZC5cIixcclxuICAgIFBhc3N3b3JkID0gXCJQYXNzd29yZCBzaG91bGQgYmUgYmV0d2VlbiAzIGFuZCAxMDAgY2hhcmFjdGVycy5cIixcclxuICAgIFBob25lTnVtYmVyID0gXCJJbnZhbGlkIHBob25lIG51bWJlci5cIixcclxuICAgIENvdW50cnlDb2RlID0gXCJJbnZhbGlkIGNvdW50cnkgY29kZS5cIixcclxuICAgIE5hbWUgPSBcIllvdXIgbmFtZSBzaG91bGQgY29udGFpbiBvbmx5IGNoYXJhY3RlcnMuXCIsXHJcbiAgICBFbWFpbCA9IFwiSW52YWxpZCBlbWFpbC5cIixcclxuICAgIFZlcmlmaWNhdGlvbkNvZGUgPSBcIkludmFsaWQgdmVyaWZpY2F0aW9uIGNvZGUuXCIsXHJcbiAgICBTZWN1cml0eUNvZGUgPSBcIkludmFsaWQgc2VjdXJpdHkgY29kZS5cIixcclxuICAgIFJlc3RvcmF0aW9uQ29kZSA9IFwiUmVzdG9yYXRpb24gY29kZSBtdXN0IGJlIGJldHdlZW4gMTYgYW5kIDQwIGNoYXJhY3RlcnMuXCIsXHJcbiAgICBSZWNpcGllbnRJRCA9IFwiSW52YWxpZCByZWNpcGllbnQgdXVpZC5cIixcclxuICAgIFRva2VuQW1vdW50VHJhbnNmZXIgPSBcIkFtb3VudCBvZiB0b2tlbnMgc2VudCBzaG91bGQgYmUgYXRsZWFzdCAxMC5cIixcclxuICAgIEFtb3VudCA9IFwiSW52YWxpZCBhbW91bnQuXCIsXHJcbiAgICBDYXJkRGF0ZUludmFsaWQgPSBcIkludmFsaWQgZGF0ZSBmb3IgY2FyZC5cIixcclxuICAgIENhcmRJZCA9IFwiQ2FyZElkIHNob3VsZCBiZSBhIG51bWJlci5cIixcclxuICAgIENhcmRFeHBpcmVkID0gXCJZb3VyIGNhcmQgaGFzIGV4cGlyZWQuXCIsXHJcbiAgICBDYXJkTnVtYmVyID0gXCJJbnZhbGlkIGNhcmQgbnVtYmVyLlwiLFxyXG4gICAgQ2FyZENWViA9IFwiSW52YWxpZCBjYXJkIHNlY3VyaXR5IGNvZGUuXCIsXHJcbiAgICBDYXJkSG9sZGVyTmFtZSA9IFwiSW52YWxpZCBjYXJkIGhvbGRlciBuYW1lLlwiLFxyXG4gICAgQ2FyZE5hbWUgPSBcIkludmFsaWQgbmFtZSBmb3IgY2FyZC5cIixcclxuICAgIFRva2VuQW1vdW50ID0gXCJBbW91bnQgb2YgdG9rZW5zIHNob3VsZCBiZSBhdGxlYXN0IDAuMS5cIixcclxuICAgIE5hdGlvbmFsaXR5ID0gXCJJbnZhbGlkIG5hdGlvbmFsaXR5LlwiLFxyXG4gICAgVGl0bGUgPSBcIkludmFsaWQgdGl0bGUuXCIsXHJcbiAgICBUb3duID0gXCJJbnZhbGlkIHRvd24uIEl0IHNob3VsZCBjb250YWluIGFscGhhYmV0aWNhbCBsZXR0ZXJzLlwiLFxyXG4gICAgU3RhdGUgPSBcIkludmFsaWQgc3RhdGUuXCIsXHJcbiAgICBTdHJlZXQgPSBcIkludmFsaWQgc3RyZWV0LlwiLFxyXG4gICAgUG9zdGNvZGUgPSBcIkludmFsaWQgcG9zdGNvZGUuXCIsXHJcbiAgICBGaWxlID0gXCJNYXhpbXVtIGZpbGUgc2l6ZSBpcyAxMCBNQi5cIixcclxuICAgIERvY3VtZW50U2lkZSA9IFwiSW52YWxpZCBkb2N1bWVudCBzaWRlIG5hbWUuXCJcclxufSJdfQ==

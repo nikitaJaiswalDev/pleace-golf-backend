@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TestEmailTemplate = void 0;
+const email_template_interface_1 = require("../core/email/email-template.interface");
+class TestEmailTemplate {
+    constructor() {
+        this.templateType = email_template_interface_1.EmailTemplateType.TEXT;
+    }
+    getText() {
+        return "Test email...";
+    }
+    getHtml() {
+        return "<b>Test email...</b>";
+    }
+}
+exports.TestEmailTemplate = TestEmailTemplate;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVzdC5lbWFpbC10ZW1wbGF0ZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9lbWFpbC90ZXN0LmVtYWlsLXRlbXBsYXRlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLHFGQUEyRjtBQUczRixNQUFhLGlCQUFpQjtJQUE5QjtRQU1JLGlCQUFZLEdBQUcsNENBQWlCLENBQUMsSUFBSSxDQUFDO0lBUTFDLENBQUM7SUFORyxPQUFPO1FBQ0gsT0FBTyxlQUFlLENBQUM7SUFDM0IsQ0FBQztJQUNELE9BQU87UUFDSCxPQUFPLHNCQUFzQixDQUFDO0lBQ2xDLENBQUM7Q0FDSjtBQWRELDhDQWNDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSUVtYWlsVGVtcGxhdGUsIEVtYWlsVGVtcGxhdGVUeXBlIH0gZnJvbSBcIi4uL2NvcmUvZW1haWwvZW1haWwtdGVtcGxhdGUuaW50ZXJmYWNlXCI7XHJcbmltcG9ydCB7IEVtYWlsQWRkcmVzcyB9IGZyb20gXCIuLi9jb3JlL2VtYWlsL2VtYWlsLWFkZHJlc3NcIjtcclxuXHJcbmV4cG9ydCBjbGFzcyBUZXN0RW1haWxUZW1wbGF0ZSBpbXBsZW1lbnRzIElFbWFpbFRlbXBsYXRle1xyXG4gICAgc3ViamVjdDogc3RyaW5nO1xyXG4gICAgdG86IEVtYWlsQWRkcmVzcztcclxuICAgIHRlbXBsYXRlSWQ/OiBzdHJpbmc7XHJcbiAgICB0ZW1wbGF0ZURhdGE6IGFueTtcclxuXHJcbiAgICB0ZW1wbGF0ZVR5cGUgPSBFbWFpbFRlbXBsYXRlVHlwZS5URVhUO1xyXG5cclxuICAgIGdldFRleHQoKTogc3RyaW5nIHtcclxuICAgICAgICByZXR1cm4gXCJUZXN0IGVtYWlsLi4uXCI7XHJcbiAgICB9XHJcbiAgICBnZXRIdG1sKCk6IHN0cmluZyB7XHJcbiAgICAgICAgcmV0dXJuIFwiPGI+VGVzdCBlbWFpbC4uLjwvYj5cIjtcclxuICAgIH1cclxufVxyXG4iXX0=

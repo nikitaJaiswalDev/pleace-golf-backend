@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GolfHole = void 0;
+class GolfHole {
+}
+exports.GolfHole = GolfHole;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ29sZi1ob2xlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL3R5cGVzL2dvbGYtaG9sZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxNQUFhLFFBQVE7Q0FHcEI7QUFIRCw0QkFHQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBHb2xmSG9sZSB7XHJcbiAgICBob2xlOiBudW1iZXI7XHJcbiAgICBwYXI6IG51bWJlcjtcclxufSJdfQ==

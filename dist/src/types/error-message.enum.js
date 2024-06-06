@@ -1,0 +1,49 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ErrorMessage = void 0;
+exports.ErrorMessage = {
+    UserExists: function (email) {
+        return `Account with provided email:${email} already exists.`;
+    },
+    NotExists: function () {
+        return `Not User invite exists.`;
+    },
+    TournamentEntryExists: "Tournament entry already exists.",
+    TournamentEntryNotExists: "Tournament entry doesn't exists.",
+    UserDoesNotExist: "User does not exist",
+    InvalidCredentials: "Invalid email or password.",
+    AccountDisabled: "Account has been disabled, please contact support.",
+    AccountNotConfirmed: "Account has not been confirmed, please check your inbox for an account confirmation link.",
+    InvalidInvitationLink: 'Invalid invitation link',
+    InviteeAlreadyExists: 'Invitee Already Exists',
+    GetByID(userID) {
+        return `An error occurred while fetching user: ${userID}.`;
+    },
+    EmailConfirmed(email) {
+        return `Account with provided email:${email} has already been confirmed.`;
+    },
+    EmailVerificationCode(userID) {
+        return `An error occurred while generating email verification code for user: ${userID}.`;
+    },
+    ResetVerificationCode(email) {
+        return `An error occurred while generating a reset password verification code for user: ${email}.`;
+    },
+    //InvalidVerificationCode: "Invalid verification code",
+    InvalidEmailOrVerificationCode: "Invalid email or verification code",
+    ResetPassword(email) {
+        return `An error occurred while resetting password for user: ${email}.`;
+    },
+    ChangePassword(userID) {
+        return `An error  occurred while changing password for user: ${userID}.`;
+    },
+    InvalidAccessToken: "Invalid or already used token.",
+    InvalidLeaderboardId: "Invalid leaderboard ID.",
+    InvalidCourseId: "Invalid course ID.",
+    InvalidTournamentId: "Invalid tournament ID.",
+    InvalidScorecardId: "Invalid scorecard ID.",
+    InvalidDivision: "Invalid division.",
+    InvalidTournamentDivision: "Invalid division. If you have a Celeb or Legend access code apply it in settings and try again.",
+    TournamentPlayerCourseLimitReached: "The tournament player course limit has been reached. Please try a different course.",
+    CannotLoginInApp: "Only Celebrity and Tour Player can login into pleace-awaken.me."
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZXJyb3ItbWVzc2FnZS5lbnVtLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL3R5cGVzL2Vycm9yLW1lc3NhZ2UuZW51bS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFDYSxRQUFBLFlBQVksR0FBRztJQUN4QixVQUFVLEVBQUUsVUFBUyxLQUFhO1FBQzlCLE9BQU8sK0JBQStCLEtBQUssa0JBQWtCLENBQUM7SUFDbEUsQ0FBQztJQUNELFNBQVMsRUFBRTtRQUNQLE9BQU8seUJBQXlCLENBQUM7SUFDckMsQ0FBQztJQUNELHFCQUFxQixFQUFFLGtDQUFrQztJQUN6RCx3QkFBd0IsRUFBRSxrQ0FBa0M7SUFDNUQsZ0JBQWdCLEVBQUUscUJBQXFCO0lBQ3ZDLGtCQUFrQixFQUFFLDRCQUE0QjtJQUNoRCxlQUFlLEVBQUUsb0RBQW9EO0lBQ3JFLG1CQUFtQixFQUFFLDJGQUEyRjtJQUNoSCxxQkFBcUIsRUFBRyx5QkFBeUI7SUFDakQsb0JBQW9CLEVBQUcsd0JBQXdCO0lBQy9DLE9BQU8sQ0FBQyxNQUFjO1FBQ2xCLE9BQU8sMENBQTBDLE1BQU0sR0FBRyxDQUFDO0lBQy9ELENBQUM7SUFDRCxjQUFjLENBQUMsS0FBYTtRQUN4QixPQUFPLCtCQUErQixLQUFLLDhCQUE4QixDQUFDO0lBQzlFLENBQUM7SUFDRCxxQkFBcUIsQ0FBQyxNQUFjO1FBQ2hDLE9BQU8sd0VBQXdFLE1BQU0sR0FBRyxDQUFDO0lBQzdGLENBQUM7SUFDRCxxQkFBcUIsQ0FBQyxLQUFhO1FBQy9CLE9BQU8sbUZBQW1GLEtBQUssR0FBRyxDQUFDO0lBQ3ZHLENBQUM7SUFDRCx1REFBdUQ7SUFDdkQsOEJBQThCLEVBQUUsb0NBQW9DO0lBQ3BFLGFBQWEsQ0FBQyxLQUFhO1FBQ3ZCLE9BQU8sd0RBQXdELEtBQUssR0FBRyxDQUFDO0lBQzVFLENBQUM7SUFDRCxjQUFjLENBQUMsTUFBYztRQUN6QixPQUFPLHdEQUF3RCxNQUFNLEdBQUcsQ0FBQztJQUM3RSxDQUFDO0lBQ0Qsa0JBQWtCLEVBQUUsZ0NBQWdDO0lBQ3BELG9CQUFvQixFQUFFLHlCQUF5QjtJQUMvQyxlQUFlLEVBQUUsb0JBQW9CO0lBQ3JDLG1CQUFtQixFQUFFLHdCQUF3QjtJQUM3QyxrQkFBa0IsRUFBRSx1QkFBdUI7SUFDM0MsZUFBZSxFQUFFLG1CQUFtQjtJQUNwQyx5QkFBeUIsRUFBRSxpR0FBaUc7SUFDNUgsa0NBQWtDLEVBQUUscUZBQXFGO0lBQ3pILGdCQUFnQixFQUFFLGlFQUFpRTtDQUN0RixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmV4cG9ydCBjb25zdCBFcnJvck1lc3NhZ2UgPSB7XHJcbiAgICBVc2VyRXhpc3RzOiBmdW5jdGlvbihlbWFpbDogc3RyaW5nKTogc3RyaW5nIHtcclxuICAgICAgICByZXR1cm4gYEFjY291bnQgd2l0aCBwcm92aWRlZCBlbWFpbDoke2VtYWlsfSBhbHJlYWR5IGV4aXN0cy5gO1xyXG4gICAgfSxcclxuICAgIE5vdEV4aXN0czogZnVuY3Rpb24oKSB7XHJcbiAgICAgICAgcmV0dXJuIGBOb3QgVXNlciBpbnZpdGUgZXhpc3RzLmA7XHJcbiAgICB9LFxyXG4gICAgVG91cm5hbWVudEVudHJ5RXhpc3RzOiBcIlRvdXJuYW1lbnQgZW50cnkgYWxyZWFkeSBleGlzdHMuXCIsXHJcbiAgICBUb3VybmFtZW50RW50cnlOb3RFeGlzdHM6IFwiVG91cm5hbWVudCBlbnRyeSBkb2Vzbid0IGV4aXN0cy5cIixcclxuICAgIFVzZXJEb2VzTm90RXhpc3Q6IFwiVXNlciBkb2VzIG5vdCBleGlzdFwiLFxyXG4gICAgSW52YWxpZENyZWRlbnRpYWxzOiBcIkludmFsaWQgZW1haWwgb3IgcGFzc3dvcmQuXCIsXHJcbiAgICBBY2NvdW50RGlzYWJsZWQ6IFwiQWNjb3VudCBoYXMgYmVlbiBkaXNhYmxlZCwgcGxlYXNlIGNvbnRhY3Qgc3VwcG9ydC5cIixcclxuICAgIEFjY291bnROb3RDb25maXJtZWQ6IFwiQWNjb3VudCBoYXMgbm90IGJlZW4gY29uZmlybWVkLCBwbGVhc2UgY2hlY2sgeW91ciBpbmJveCBmb3IgYW4gYWNjb3VudCBjb25maXJtYXRpb24gbGluay5cIixcclxuICAgIEludmFsaWRJbnZpdGF0aW9uTGluayA6ICdJbnZhbGlkIGludml0YXRpb24gbGluaycsXHJcbiAgICBJbnZpdGVlQWxyZWFkeUV4aXN0cyA6ICdJbnZpdGVlIEFscmVhZHkgRXhpc3RzJyxcclxuICAgIEdldEJ5SUQodXNlcklEOiBzdHJpbmcpOiBzdHJpbmcge1xyXG4gICAgICAgIHJldHVybiBgQW4gZXJyb3Igb2NjdXJyZWQgd2hpbGUgZmV0Y2hpbmcgdXNlcjogJHt1c2VySUR9LmA7XHJcbiAgICB9LFxyXG4gICAgRW1haWxDb25maXJtZWQoZW1haWw6IHN0cmluZyk6IHN0cmluZyB7XHJcbiAgICAgICAgcmV0dXJuIGBBY2NvdW50IHdpdGggcHJvdmlkZWQgZW1haWw6JHtlbWFpbH0gaGFzIGFscmVhZHkgYmVlbiBjb25maXJtZWQuYDtcclxuICAgIH0sXHJcbiAgICBFbWFpbFZlcmlmaWNhdGlvbkNvZGUodXNlcklEOiBzdHJpbmcpOiBzdHJpbmcge1xyXG4gICAgICAgIHJldHVybiBgQW4gZXJyb3Igb2NjdXJyZWQgd2hpbGUgZ2VuZXJhdGluZyBlbWFpbCB2ZXJpZmljYXRpb24gY29kZSBmb3IgdXNlcjogJHt1c2VySUR9LmA7XHJcbiAgICB9LFxyXG4gICAgUmVzZXRWZXJpZmljYXRpb25Db2RlKGVtYWlsOiBzdHJpbmcpOiBzdHJpbmcge1xyXG4gICAgICAgIHJldHVybiBgQW4gZXJyb3Igb2NjdXJyZWQgd2hpbGUgZ2VuZXJhdGluZyBhIHJlc2V0IHBhc3N3b3JkIHZlcmlmaWNhdGlvbiBjb2RlIGZvciB1c2VyOiAke2VtYWlsfS5gO1xyXG4gICAgfSxcclxuICAgIC8vSW52YWxpZFZlcmlmaWNhdGlvbkNvZGU6IFwiSW52YWxpZCB2ZXJpZmljYXRpb24gY29kZVwiLFxyXG4gICAgSW52YWxpZEVtYWlsT3JWZXJpZmljYXRpb25Db2RlOiBcIkludmFsaWQgZW1haWwgb3IgdmVyaWZpY2F0aW9uIGNvZGVcIixcclxuICAgIFJlc2V0UGFzc3dvcmQoZW1haWw6IHN0cmluZyk6IHN0cmluZyB7XHJcbiAgICAgICAgcmV0dXJuIGBBbiBlcnJvciBvY2N1cnJlZCB3aGlsZSByZXNldHRpbmcgcGFzc3dvcmQgZm9yIHVzZXI6ICR7ZW1haWx9LmA7XHJcbiAgICB9LFxyXG4gICAgQ2hhbmdlUGFzc3dvcmQodXNlcklEOiBzdHJpbmcpOiBzdHJpbmcge1xyXG4gICAgICAgIHJldHVybiBgQW4gZXJyb3IgIG9jY3VycmVkIHdoaWxlIGNoYW5naW5nIHBhc3N3b3JkIGZvciB1c2VyOiAke3VzZXJJRH0uYDtcclxuICAgIH0sXHJcbiAgICBJbnZhbGlkQWNjZXNzVG9rZW46IFwiSW52YWxpZCBvciBhbHJlYWR5IHVzZWQgdG9rZW4uXCIsXHJcbiAgICBJbnZhbGlkTGVhZGVyYm9hcmRJZDogXCJJbnZhbGlkIGxlYWRlcmJvYXJkIElELlwiLFxyXG4gICAgSW52YWxpZENvdXJzZUlkOiBcIkludmFsaWQgY291cnNlIElELlwiLFxyXG4gICAgSW52YWxpZFRvdXJuYW1lbnRJZDogXCJJbnZhbGlkIHRvdXJuYW1lbnQgSUQuXCIsXHJcbiAgICBJbnZhbGlkU2NvcmVjYXJkSWQ6IFwiSW52YWxpZCBzY29yZWNhcmQgSUQuXCIsXHJcbiAgICBJbnZhbGlkRGl2aXNpb246IFwiSW52YWxpZCBkaXZpc2lvbi5cIixcclxuICAgIEludmFsaWRUb3VybmFtZW50RGl2aXNpb246IFwiSW52YWxpZCBkaXZpc2lvbi4gSWYgeW91IGhhdmUgYSBDZWxlYiBvciBMZWdlbmQgYWNjZXNzIGNvZGUgYXBwbHkgaXQgaW4gc2V0dGluZ3MgYW5kIHRyeSBhZ2Fpbi5cIixcclxuICAgIFRvdXJuYW1lbnRQbGF5ZXJDb3Vyc2VMaW1pdFJlYWNoZWQ6IFwiVGhlIHRvdXJuYW1lbnQgcGxheWVyIGNvdXJzZSBsaW1pdCBoYXMgYmVlbiByZWFjaGVkLiBQbGVhc2UgdHJ5IGEgZGlmZmVyZW50IGNvdXJzZS5cIixcclxuICAgIENhbm5vdExvZ2luSW5BcHA6IFwiT25seSBDZWxlYnJpdHkgYW5kIFRvdXIgUGxheWVyIGNhbiBsb2dpbiBpbnRvIHBsZWFjZS1hd2FrZW4ubWUuXCJcclxufTtcclxuXHJcbiJdfQ==

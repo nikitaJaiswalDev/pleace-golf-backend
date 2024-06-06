@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TournamentLeaderboardRequestSchema = void 0;
+const validator_1 = require("../../../../core/validation/validator");
+const { check } = require("express-validator");
+exports.TournamentLeaderboardRequestSchema = [
+    (0, validator_1.checkId)('tournamentId'),
+    (0, validator_1.checkId)('leaderboardId')
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidG91cm5hbWVudC1sZWFkZXJib2FyZC5yZXF1ZXN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vc3JjL2FwaS92MS9kdG9zL3JlcXVlc3QvdG91cm5hbWVudC1sZWFkZXJib2FyZC5yZXF1ZXN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLHFFQUFnRTtBQUVoRSxNQUFNLEVBQUUsS0FBSyxFQUFFLEdBQUcsT0FBTyxDQUFDLG1CQUFtQixDQUFDLENBQUM7QUFFbEMsUUFBQSxrQ0FBa0MsR0FBRztJQUM5QyxJQUFBLG1CQUFPLEVBQUMsY0FBYyxDQUFDO0lBQ3ZCLElBQUEsbUJBQU8sRUFBQyxlQUFlLENBQUM7Q0FDM0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNoZWNrSWQgfSBmcm9tIFwiLi4vLi4vLi4vLi4vY29yZS92YWxpZGF0aW9uL3ZhbGlkYXRvclwiO1xyXG5cclxuY29uc3QgeyBjaGVjayB9ID0gcmVxdWlyZShcImV4cHJlc3MtdmFsaWRhdG9yXCIpO1xyXG5cclxuZXhwb3J0IGNvbnN0IFRvdXJuYW1lbnRMZWFkZXJib2FyZFJlcXVlc3RTY2hlbWEgPSBbXHJcbiAgICBjaGVja0lkKCd0b3VybmFtZW50SWQnKSxcclxuICAgIGNoZWNrSWQoJ2xlYWRlcmJvYXJkSWQnKVxyXG5dO1xyXG4iXX0=

@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Group = void 0;
+class Group {
+}
+exports.Group = Group;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ3JvdXAuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvdHlwZXMvZ3JvdXAudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsTUFBYSxLQUFLO0NBR2pCO0FBSEQsc0JBR0MiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgR3JvdXAge1xyXG4gICAgc2l6ZTogbnVtYmVyO1xyXG4gICAgbWF4R3JvdXBzOiBudW1iZXI7XHJcbn0iXX0=

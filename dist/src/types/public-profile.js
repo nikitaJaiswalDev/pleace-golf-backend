@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PublicProfile = void 0;
+class PublicProfile {
+}
+exports.PublicProfile = PublicProfile;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLXByb2ZpbGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvdHlwZXMvcHVibGljLXByb2ZpbGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsTUFBYSxhQUFhO0NBR3pCO0FBSEQsc0NBR0MiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgUHVibGljUHJvZmlsZSB7XHJcbiAgICBwbGF0Zm9ybTogc3RyaW5nO1xyXG4gICAgbGluazogc3RyaW5nO1xyXG59Il19

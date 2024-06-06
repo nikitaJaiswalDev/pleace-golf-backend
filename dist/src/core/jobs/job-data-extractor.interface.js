@@ -1,0 +1,6 @@
+"use strict";
+/**
+ * Copyright (c) 2020 Codev Technologies (Pty) Ltd. All rights reserved.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiam9iLWRhdGEtZXh0cmFjdG9yLmludGVyZmFjZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9jb3JlL2pvYnMvam9iLWRhdGEtZXh0cmFjdG9yLmludGVyZmFjZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7O0dBRUciLCJzb3VyY2VzQ29udGVudCI6WyIvKipcclxuICogQ29weXJpZ2h0IChjKSAyMDIwIENvZGV2IFRlY2hub2xvZ2llcyAoUHR5KSBMdGQuIEFsbCByaWdodHMgcmVzZXJ2ZWQuXHJcbiAqL1xyXG5cclxuZXhwb3J0IGludGVyZmFjZSBJSm9iRGF0YUV4dHJhY3RvciB7XHJcbiAgICBleHRyYWN0RGF0YUZyb21Kb2Ioam9iOiBhbnkpOiBhbnk7XHJcbn0iXX0=

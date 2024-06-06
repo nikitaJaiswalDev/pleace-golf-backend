@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserVerificationCode = void 0;
+class UserVerificationCode {
+}
+exports.UserVerificationCode = UserVerificationCode;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlci12ZXJpZmljYXRpb24tY29kZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy90eXBlcy91c2VyLXZlcmlmaWNhdGlvbi1jb2RlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLE1BQWEsb0JBQW9CO0NBR2hDO0FBSEQsb0RBR0MiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgVXNlclZlcmlmaWNhdGlvbkNvZGUge1xyXG4gICAgdXNlcklkOiBzdHJpbmc7XHJcbiAgICB2ZXJpZmljYXRpb25Db2RlOiBzdHJpbmc7XHJcbn0iXX0=

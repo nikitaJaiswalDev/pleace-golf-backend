@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TournamentRequestSchema = void 0;
+const validator_1 = require("../../../../core/validation/validator");
+exports.TournamentRequestSchema = [
+    (0, validator_1.checkId)('tournamentId')
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidG91cm5hbWVudC5yZXF1ZXN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vLi4vc3JjL2FwaS92MS9kdG9zL3JlcXVlc3QvdG91cm5hbWVudC5yZXF1ZXN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLHFFQUFnRTtBQUVuRCxRQUFBLHVCQUF1QixHQUFHO0lBQ25DLElBQUEsbUJBQU8sRUFBQyxjQUFjLENBQUM7Q0FDMUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNoZWNrSWQgfSBmcm9tIFwiLi4vLi4vLi4vLi4vY29yZS92YWxpZGF0aW9uL3ZhbGlkYXRvclwiO1xyXG5cclxuZXhwb3J0IGNvbnN0IFRvdXJuYW1lbnRSZXF1ZXN0U2NoZW1hID0gW1xyXG4gICAgY2hlY2tJZCgndG91cm5hbWVudElkJylcclxuXTtcclxuIl19
