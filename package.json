@@ -22,9 +22,10 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.6.0",
+    "@types/whatwg-url": "^11.0.5",
     "agenda": "^3.1.0",
     "agendash": "^1.0.0",
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "~8.2.0",
@@ -33,21 +34,20 @@
     "express-winston": "^4.2.0",
     "flat": "^5.0.2",
     "helmet": "^3.23.3",
-    "hystrixjs": "^0.2.0",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "mongoose": "^5.13.13",
     "multer": "^1.4.3",
-    "node-sass": "^6.0.1",
+    "node-sass": "^9.0.0",
     "nodemailer": "^6.7.2",
     "passport": "^0.4.1",
     "passport-custom": "^1.1.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "prettier": "^2.5.0",
-    "rxjs": "^6.6.7",
+    "rxjs": "^7.8.1",
     "sib-api-v3-sdk": "^8.2.1",
     "swagger-jsdoc": "4.0.0",
     "swagger-ui-express": "^4.1.6",
@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@types/agenda": "^2.0.9",
-    "@types/bcrypt": "^3.0.1",
+    "@types/bcrypt": "^5.0.0",
     "@types/chai": "^4.2.22",
     "@types/chai-http": "^4.2.0",
     "@types/cors": "^2.8.12",
@@ -105,6 +105,6 @@
     "sinon": "9.0.2",
     "ts-node": "^8.10.2",
     "tslib": "^2.3.1",
-    "typescript": "^3.9.10"
+    "typescript": "^5.4.5"
   }
 }
